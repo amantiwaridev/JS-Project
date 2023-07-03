@@ -7,9 +7,8 @@ var outputDiv = document.querySelector("#output");
 var serverURL = "https://api.funtranslations.com/translate/shakespeare.json";
 
 function getTranslationURL(input){
-
+    
     return serverURL + "?" + "text=" + input
-
 }
 
 function clickHandler(){   
